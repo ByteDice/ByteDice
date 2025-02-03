@@ -8,31 +8,35 @@
 ## About me
 
 ```rs
-struct Person {
-  name:      String,
-  pronouns:  String,
-  languages: Vec<String>,
-  websites:  Vec<String>
+struct Person<'a> {
+    name:          &'a str,
+    pronouns:      &'a str,
+    languages: Vec<&'a str>,
+    websites:  Vec<&'a str>,
 }
 
 fn main() {
   let me = Person {
-    name: "Byte Dice".to_string(),
-    pronouns: "up to your imagination (any)".to_string(),
+    name: "Byte Dice",
+    pronouns: "up to your imagination (any)",
     languages: vec![
-      "Rust"           .to_string(),
-      "HTML / CSS / JS".to_string(),
-      "Kotlin"         .to_string(),
-      "Python"         .to_string(),
+      "Rust",
+      "HTML / CSS / JS",
+      "Kotlin",
+      "Python",
     ],
-    websites: vec!["https://ByteDice.net".to_string()]
+    websites: vec!["https://ByteDice.net"]
   };
 
+  // unoptimal but more readable
   println!("Hello, I'm {}!", me.name);
+  println!("My pronouns are {}.", me.pronouns);
+  println!("I code in {}.", me.languages.join(", "));
+  println!("Check out my websites:\n{}", me.websites.join("\n"));
 }
 ```
 \
 **Little Bits of Byte:**
-* I sometimes think in postfix notation. If you don’t, are you even efficient?
-* If it takes more than 0.5s to load, it's too slow.
-* Started designing a Minecraft mod, accidentally built a whole alternate reality.
+* POSTFIX NOTATION FOREVER!!!
+* If it takes more than 0.5s to load, it's too slow. No exceptions. Go fix your code.
+<!-- * Started designing a Minecraft mod, accidentally built a whole alternate reality. -->
