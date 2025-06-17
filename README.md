@@ -39,4 +39,4 @@ fn main() {
 **Little Bits of Byte:**
 * POSTFIX NOTATION FOREVER!!!
 * If it takes more than 0.5s to load, it's too slow. No exceptions. Go fix your code.
-  * If it's a library that takes more than 0.5s to load -- then it's an unoptimized one.
+  * If it's a library that takes more than 0.5s to load, then it's an unoptimized one.
