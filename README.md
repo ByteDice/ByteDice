@@ -1,8 +1,8 @@
 <h1 align="center">Hello, my name is Byte Dice!</h1>
 <p  align="center">
-  <img src="./assets/arrow-left.png" style="width: 1em; vertical-align: middle;">
-  Certified insect exterminator in coding, Helldivers 2, and sometimes real life.
-  <img src="./assets/arrow-right.png" style="width: 1em; vertical-align: middle;">
+  Award winning spaghetti chef<br>
+  Award winning insect breeder<br>
+  <sub>(In code, also a joke)</sub>
 </p>
 
 ## About me
@@ -24,6 +24,7 @@ fn main() {
       "HTML / CSS / JS",
       "Kotlin",
       "Python",
+      "C#"
     ],
     websites: vec!["https://ByteDice.net"]
   };
@@ -35,8 +36,8 @@ fn main() {
   println!("Check out my websites:\n{}", me.websites.join("\n"));
 }
 ```
-\
-**Little Bits of Byte:**
-* POSTFIX NOTATION FOREVER!!!
-* If it takes more than 0.5s to load, it's too slow. No exceptions. Go fix your code.
-  * If it's a library that takes more than 0.5s to load, then it's an unoptimized one.
+
+## Other things about me:
+* Apparently people think I'm a femboy
+* I really, really love Rust
+* ...I know why people think I'm a femboy
