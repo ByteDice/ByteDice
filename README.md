@@ -21,9 +21,8 @@ fn main() {
     pronouns: "up to your imagination (any)",
     languages: vec![
       "Rust",
-      "HTML / CSS / JS",
-      "Kotlin",
       "Python",
+      "HTML / CSS / JS",
       "C#"
     ],
     websites: vec!["https://ByteDice.net"]
