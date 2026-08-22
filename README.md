@@ -6,7 +6,7 @@
 </p>
 
 > [!NOTE]
-> Most of my repositories have moved to https://git.bytedice.net/ByteDice
+> Most of my repositories have moved to https://git.bytedice.net/ByteDice \
 > Reason: I love self-hosting.
 
 ## About me
